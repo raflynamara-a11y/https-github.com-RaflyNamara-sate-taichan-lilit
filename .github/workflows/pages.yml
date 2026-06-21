@@ -1,1 +1,29 @@
 
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Upload static site content
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: './'
+          exclude: |
+            .git
+            .git/**
+            .github/**
+            README.md
+            index.php
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
