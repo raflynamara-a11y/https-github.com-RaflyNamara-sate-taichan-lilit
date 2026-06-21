@@ -1,0 +1,58 @@
+=================================================================
+  SETUP CEPAT SATE TAICAN LILIT - PHP NATIVE + XAMPP
+=================================================================
+
+📋 LANGKAH SINGKAT SETUP:
+
+1. NYALAKAN XAMPP
+   ✓ Buka XAMPP Control Panel
+   ✓ Start MySQL
+   ✓ Start Apache
+
+2. IMPORT DATABASE
+   ✓ Buka http://localhost/phpmyadmin
+   ✓ Klik SQL
+   ✓ Copy-paste isi file: db/database.sql
+   ✓ Klik Go
+
+3. PINDAHKAN PROJECT KE HTDOCS
+   ✓ Copy folder "Sate Taichan Lilit" ke C:\xampp\htdocs\
+   ✓ Atau buat link di sana
+
+4. BUKA BROWSER
+   ✓ http://localhost/Sate%20Taichan%20Lilit/
+
+SELESAI! ✓
+
+=================================================================
+
+🔗 URL AKSES:
+   http://localhost/Sate%20Taichan%20Lilit/
+
+📊 DATABASE:
+   - Nama: sate_taican_db
+   - User: root
+   - Password: (kosong)
+
+🔧 CONFIG DATABASE:
+   File: config/config.php
+
+📁 STRUKTUR FOLDER:
+   ✓ config/       - Database config
+   ✓ includes/     - Header & Footer
+   ✓ pages/        - Halaman konten
+   ✓ assets/       - CSS & JS
+   ✓ db/           - SQL files
+   ✓ index.php     - Main file
+
+⚠️ JIKA GAMBAR TIDAK TAMPIL:
+   - Pastikan file gambar ada di folder project root
+   - Nama file harus sesuai (case sensitive!)
+   - Contoh: "IMG. Produk sate Taican Lilit.png"
+
+❓ SUPPORT:
+   - Lihat README.md untuk panduan lengkap
+   - Cek XAMPP error log jika ada masalah
+   - Gunakan phpMyAdmin untuk cek database
+
+=================================================================

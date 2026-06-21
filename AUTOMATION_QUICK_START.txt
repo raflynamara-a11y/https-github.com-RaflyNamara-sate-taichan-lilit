@@ -1,0 +1,101 @@
+=================================================================
+  GUIDE CEPAT AUTOMATION - SATE TAICAN LILIT
+=================================================================
+
+🚀 SETUP OTOMATIS (PALING MUDAH):
+   
+   1. Double-click file: setup.bat
+   2. Tunggu proses selesai
+   3. Browser otomatis terbuka
+   4. Website siap digunakan!
+   
+   SELESAI! ✓
+
+=================================================================
+
+📋 MANUAL SETUP (Jika setup.bat tidak berjalan):
+
+   1. Copy folder ke: C:\xampp\htdocs\Sate Taichan Lilit
+   2. Buka XAMPP Control Panel
+   3. Klik START → Apache (tunggu hijau)
+   4. Klik START → MySQL (tunggu hijau)
+   5. Buka: http://localhost/phpmyadmin
+   6. Import file: db/database.sql
+   7. Buka: http://localhost/Sate%20Taichan%20Lilit/
+
+=================================================================
+
+🔧 DATABASE AUTOMATION:
+
+   ✓ Backup Database:
+     Double-click: backup-db.bat
+     File backup tersimpan di: backups/
+   
+   ✓ Restore Database:
+     Double-click: restore-db.bat
+     Pilih file backup dari list
+
+=================================================================
+
+🧪 TESTING & DIAGNOSIS:
+
+   ✓ Test Koneksi Database:
+     http://localhost/Sate%20Taichan%20Lilit/test-db.php
+   
+   ✓ System Status:
+     http://localhost/Sate%20Taichan%20Lilit/status.php
+
+=================================================================
+
+👨‍💼 ADMIN PANEL:
+
+   URL: http://localhost/Sate%20Taichan%20Lilit/admin/
+   
+   Username: admin
+   Password: admin123
+   
+   Features:
+   - Dashboard statistik
+   - Kelola bahan, alat, fitur
+   - Moderasi testimoni
+   - Akses phpMyAdmin
+
+=================================================================
+
+📊 DATABASE ADMIN:
+
+   phpMyAdmin: http://localhost/phpmyadmin/
+   
+   User: root
+   Password: (kosong)
+   
+   Database: sate_taican_db
+
+=================================================================
+
+⚠️ JIKA SETUP GAGAL:
+
+   1. Cek XAMPP sudah terinstall
+   2. Pastikan MySQL & Apache HIJAU di XAMPP Control Panel
+   3. Cek port 80 tidak terpakai
+   4. Lihat AUTOMATION_GUIDE.md untuk troubleshooting lengkap
+
+=================================================================
+
+📁 SCRIPT FILES:
+
+   setup.bat           - Auto setup (recommended!)
+   backup-db.bat       - Backup database otomatis
+   restore-db.bat      - Restore database
+   test-db.php         - Test koneksi & health check
+   status.php          - System status page
+   AUTOMATION_GUIDE.md - Dokumentasi lengkap
+
+=================================================================
+
+🎉 SELESAI SETUP? AKSES:
+
+   Website: http://localhost/Sate%20Taichan%20Lilit/
+   Admin:   http://localhost/Sate%20Taichan%20Lilit/admin/
+
+=================================================================
